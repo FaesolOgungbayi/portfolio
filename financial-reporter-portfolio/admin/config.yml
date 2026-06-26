@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: YOUR-GITHUB-USERNAME/portfolio
+  repo: FaesolOgungbayi/portfolio
   branch: main
 
 media_folder: "assets/uploads"
