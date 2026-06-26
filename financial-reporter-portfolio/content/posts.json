@@ -1,0 +1,32 @@
+{
+  "stories": [
+    {
+      "title": "How investors priced a volatile quarter",
+      "category": "markets",
+      "publication": "Publication Name",
+      "excerpt": "A concise explainer on rates, liquidity, and investor sentiment during a fast-moving trading week.",
+      "url": "#"
+    },
+    {
+      "title": "Inside the earnings call that reset expectations",
+      "category": "companies",
+      "publication": "Publication Name",
+      "excerpt": "A reported analysis of margin pressure, guidance changes, and what management told shareholders.",
+      "url": "#"
+    },
+    {
+      "title": "What a new fiscal plan means for households",
+      "category": "policy",
+      "publication": "Publication Name",
+      "excerpt": "A plain-English breakdown of policy choices, winners, risks, and the numbers behind the debate.",
+      "url": "#"
+    },
+    {
+      "title": "Why a regional lender changed its playbook",
+      "category": "companies",
+      "publication": "Publication Name",
+      "excerpt": "A business profile connecting strategy, regulation, customer behavior, and competitive pressure.",
+      "url": "#"
+    }
+  ]
+}

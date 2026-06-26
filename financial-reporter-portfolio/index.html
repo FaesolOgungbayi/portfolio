@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Portfolio website for a financial and business reporter covering markets, companies, policy, and the economy."
+    />
+    <title>Your Name | Financial & Business Reporter</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand-mark">YN</span>
+        <span>Your Name</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-menu-toggle>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" data-nav>
+        <a href="#work">Work</a>
+        <a href="#beats">Beats</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy">
+          <p class="kicker">Financial and business reporter</p>
+          <h1>Sharp reporting on money, markets, companies, and the economy.</h1>
+          <p class="hero-text">
+            I turn balance sheets, policy shifts, executive decisions, and market signals into clear stories for readers
+            who need context, speed, and judgment.
+          </p>
+          <div class="hero-actions" aria-label="Primary links">
+            <a class="button primary" href="#work">View clips</a>
+            <a class="button secondary" href="mailto:you@example.com">Email me</a>
+          </div>
+        </div>
+
+        <figure class="hero-media">
+          <img
+            src="assets/markets-editorial-wall.png"
+            alt="Editorial market data wall with line chart and business coverage notes"
+          />
+          <figcaption>
+            <span>Beat focus</span>
+            Markets, corporate finance, economic policy, and business strategy
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="ticker-band" aria-label="Reporting strengths">
+        <span>Market context</span>
+        <span>Company analysis</span>
+        <span>Economic policy</span>
+        <span>Interview-led reporting</span>
+        <span>Data-informed storytelling</span>
+      </section>
+
+      <section class="section-shell split-section" id="work">
+        <div class="section-heading">
+          <p class="kicker">Selected work</p>
+          <h2>Featured reporting</h2>
+          <p>
+            Replace these sample clips with your published stories. Keep the mix broad enough to show range and focused
+            enough to make your beat unmistakable.
+          </p>
+        </div>
+
+        <div class="work-panel">
+          <div class="filter-row" aria-label="Filter stories">
+            <button class="filter-button active" type="button" data-filter="all">All</button>
+            <button class="filter-button" type="button" data-filter="markets">Markets</button>
+            <button class="filter-button" type="button" data-filter="companies">Companies</button>
+            <button class="filter-button" type="button" data-filter="policy">Policy</button>
+          </div>
+
+          <div class="story-grid" data-story-grid aria-live="polite">
+            <p class="story-loading">Loading featured reporting...</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell" id="beats">
+        <div class="section-heading compact">
+          <p class="kicker">Coverage areas</p>
+          <h2>Beats I follow closely</h2>
+        </div>
+
+        <div class="beat-grid">
+          <article class="beat-card">
+            <span class="beat-number">01</span>
+            <h3>Capital Markets</h3>
+            <p>Rates, equities, bonds, market structure, investor behavior, and the stories behind big moves.</p>
+          </article>
+          <article class="beat-card">
+            <span class="beat-number">02</span>
+            <h3>Corporate Finance</h3>
+            <p>Earnings, dealmaking, funding decisions, restructuring, and the incentives shaping boardroom choices.</p>
+          </article>
+          <article class="beat-card">
+            <span class="beat-number">03</span>
+            <h3>Economic Policy</h3>
+            <p>Central banks, fiscal plans, trade, inflation, jobs, and policy changes that affect businesses and readers.</p>
+          </article>
+          <article class="beat-card">
+            <span class="beat-number">04</span>
+            <h3>Business Leadership</h3>
+            <p>Executive strategy, industry shifts, competition, governance, and the people steering major decisions.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell about-section" id="about">
+        <div>
+          <p class="kicker">About</p>
+          <h2>Reporter, analyst, interviewer, translator of complex numbers.</h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            I cover financial and business stories with a reader-first approach: explain the numbers, test the claims,
+            find the human stakes, and make the implications clear without flattening the complexity.
+          </p>
+          <p>
+            My reporting combines source development, filings and data review, executive interviews, and close attention
+            to how markets and policy decisions affect companies, workers, consumers, and investors.
+          </p>
+        </div>
+      </section>
+
+      <section class="section-shell contact-section" id="contact">
+        <div>
+          <p class="kicker">Contact</p>
+          <h2>Open to reporting leads, editor inquiries, panels, and collaborations.</h2>
+        </div>
+        <div class="contact-card">
+          <a href="mailto:you@example.com">you@example.com</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://www.x.com/" target="_blank" rel="noreferrer">X / Twitter</a>
+          <a href="admin/">Editor login</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span data-year></span> Your Name. Financial and business reporting portfolio.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

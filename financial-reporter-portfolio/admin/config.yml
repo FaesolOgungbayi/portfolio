@@ -1,0 +1,44 @@
+backend:
+  name: github
+  repo: YOUR-GITHUB-USERNAME/portfolio
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "site"
+    label: "Site Content"
+    files:
+      - name: "featured_reporting"
+        label: "Featured Reporting"
+        file: "content/posts.json"
+        fields:
+          - label: "Stories"
+            name: "stories"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "string"
+              - label: "Category"
+                name: "category"
+                widget: "select"
+                options:
+                  - label: "Markets"
+                    value: "markets"
+                  - label: "Companies"
+                    value: "companies"
+                  - label: "Policy"
+                    value: "policy"
+              - label: "Publication"
+                name: "publication"
+                widget: "string"
+              - label: "Excerpt"
+                name: "excerpt"
+                widget: "text"
+              - label: "Story Link"
+                name: "url"
+                widget: "string"
+                default: "#"
